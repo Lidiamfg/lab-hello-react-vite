@@ -1,0 +1,100 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.8rem;
+    text-align: center;
+    background-color: white;
+  }
+
+  .container {
+    background-color: #1f2535;
+    padding: 20px 20px 70px 20px;
+    width: 700px;
+  }
+
+
+  .navigate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo{
+    margin-left: 30px;
+    width: auto;
+    height: 35px;
+  }
+
+  .menu {
+    width: auto;
+    height: 10px;
+    margin-right: 20px;
+  }
+
+  .intro-text {
+    margin-top: 100px;
+    margin-left: 30px;
+    text-align: left;
+    width: 400px;
+  }
+
+  .intro-text p {
+    margin: 0;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .intro-text h1 {
+    font-size: 58px;
+    margin-bottom: 10px;
+  }
+
+  .intro-text button {
+    margin-top: 40px;
+    background-color: white;
+    color: #1f2535;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px 15px 15px;
+  }
+
+.characteristics {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.characteristics div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 140px;
+}
+
+.characteristics h2, .characteristics p {
+    color:#1f2535;
+}
+
+.characteristics img {
+    width: auto;
+    height: 100px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.characteristics p {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: left;
+}
